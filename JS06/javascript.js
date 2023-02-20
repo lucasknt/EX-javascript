@@ -1,12 +1,12 @@
 function inicializar() {
 
     var botao = new sap.m.Button( {
-        text: "Botão"
+        text: "Botão",
+        press: function(){mostrarMensagem()}
 
     })
 
     botao.placeAt("recipiente")
-    botao.attachPress(() => mostrarMensagem())
 }
 function mostrarMensagem() {
     sap.m.MessageToast.show("Botão foi pressionado");
