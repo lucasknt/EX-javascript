@@ -1,6 +1,6 @@
 function inicializar() {
 
-    var botao = new sap.m.Button("btn1", {
+    var botao = new sap.m.Button( {
         text: "Botão"
 
     })
