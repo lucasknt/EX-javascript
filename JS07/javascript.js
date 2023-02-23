@@ -1,18 +1,18 @@
 function inicializar() {
 
-    var app = new sap.m.App("recipiente",{
+    var app = new sap.m.App("recipiente", {
         pages: new sap.m.Page("pg1", {
             title: "Teste",
             showNavButton: true,
-            content: new sap.m.Button( {
+            content: new sap.m.Button({
                 text: "Button",
                 enabled: true,
-                press: function(){mostrarMensagem()}
+                press: function () { mostrarMensagem() }
             })
-            
+
         })
-        
-        
+
+
     })
     app.placeAt("Page")
 
