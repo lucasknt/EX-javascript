@@ -32,13 +32,13 @@ function inicializar() {
         botao2
     ];
 
-    var page1 = new sap.m.Page({
+    const page1 = new sap.m.Page({
         content: new sap.ui.layout.VerticalLayout({
             content: botoes
         })
     });
 
-    var page2 = new sap.m.Page({
+    const page2 = new sap.m.Page({
         title: "Second Page",
         content: new sap.ui.layout.VerticalLayout({
             content: [
@@ -54,7 +54,7 @@ function inicializar() {
         })
     });
 
-    var app = new sap.m.App({
+    const app = new sap.m.App({
         pages: [page1, page2]
     });
 
